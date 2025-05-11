@@ -1,0 +1,72 @@
+:root {
+    --cor-primario: #00FF08;
+    --cor-segundaria: #fff;
+    --cor-navbar: #5c5c5c;
+    --cor-linksBackground: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--cor-linksBackground);
+}
+
+p {
+    color: var(--cor-segundaria);
+}
+section{
+    margin: 100px;
+}
+
+/* ------------- CABEÇALHO --------------- */
+
+#navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+}
+
+.navbarInteracao {
+    padding: 1.8rem;
+    & ul {
+        display: flex;
+        list-style-type: none;
+
+        & a {
+            padding:  0 3rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+            text-transform: capitalize;
+            color: var(--cor-navbar);
+            transition: 0.2s linear;
+        }
+        & a:hover{
+            color: var(--cor-segundaria);
+        }
+    }
+}
+
+.btnContato a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .5rem  2.5rem;
+    text-transform: capitalize;
+    font-weight:500;
+    background-color: var(--cor-primario);
+    border-radius: 50px;
+    color: var(--cor-linksBackground);
+}
+.btnContato a:hover{
+ box-shadow: 0 0 20px #11d818;
+}
+
+
+/* ------------ main ------------ */
+
+/* ------------ section principal --------------- */
+
+ctdPrincipal {
+    display: flex;
+    height: 100vh;
+    border: 1px 1px solid black;
+}
