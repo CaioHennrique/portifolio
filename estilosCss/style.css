@@ -6,31 +6,6 @@
     --cor-sombra: #11d818;
 }
 
-body {
-    background-color: var(--cor-linksBackground);
-}
-
-p {
-    color: var(--cor-segundaria);
-}
-
-section,
-main {
-    margin-top: 15rem;
-}
-
-span {
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--cor-primario);
-}
-
-h2 {
-    font-size: 3rem;
-    font-weight: 400;
-    color: var(--cor-segundaria);
-}
 
 /* ------------- CABEÇALHO --------------- */
 
