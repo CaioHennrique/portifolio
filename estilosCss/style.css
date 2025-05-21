@@ -10,6 +10,7 @@ body {
     background-color: var(--cor-linksBackground);
 }
 
+
 p {
     color: var(--cor-segundaria);
 }
@@ -216,8 +217,8 @@ h2 {
 
 
     & img {
-        width: 400px;
-        height: 500px;
+        width: 370px;
+        height: 470px;
         transition: 2s;
         cursor: pointer;
         border-radius: 40px;
