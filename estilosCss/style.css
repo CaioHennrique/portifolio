@@ -42,31 +42,31 @@ h2 {
     align-items: center;
     padding: 1rem;
     position: fixed;
+    backdrop-filter: blur(5px);
     background-color: rgb(0, 0, 0, 0.3);
     top: 0;
 }
 
 .navbarInteracao {
     padding: 1.5rem;
+}
 
-    & ul {
-        display: flex;
-        list-style-type: none;
+.navbarInteracao ul {
+    display: flex;
+    list-style-type: none;
+}
 
-        & a {
-            padding: 0 3rem;
-            text-decoration: none;
-            font-size: 1.2rem;
-            text-transform: capitalize;
-            color: var(--cor-navbar);
-            transition: 0.2s linear;
+.navbarInteracao a {
+    padding: 0 3rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: var(--cor-navbar);
+    transition: 0.2s linear;
+}
 
-        }
-
-        & a:hover {
-            color: var(--cor-segundaria);
-        }
-    }
+.navbarInteracao a:hover {
+    color: var(--cor-segundaria);
 }
 
 .btnContato {
@@ -79,7 +79,6 @@ h2 {
     border-radius: 50px;
     color: var(--cor-linksBackground);
     transition: .2s linear;
-
 }
 
 .btnContainer {
@@ -89,37 +88,34 @@ h2 {
 
 .btnContato:hover {
     box-shadow: 0 0 15px var(--cor-sombra);
-
 }
 
 .btnContainer:hover {
     transform: scale(1.05);
-
 }
 
 
-/* ------------ main ------------ */
+/* ------------ MAIN ------------ */
 
-/* ------------ section principal --------------- */
+/* ------------ section principa --------------- */
 
-#ctdPrincipal {
+#conteudoPrincipal {
     display: flex;
     margin: 40px;
     justify-content: center;
 }
 
-.cntdMain {
+.containerConteudo {
     margin: 100px 70px;
     padding-top: 3rem;
-
-    & h3 {
-        font-size: 2rem;
-        font-weight: normal;
-        margin: .5rem 0 5rem;
-        color: var(--cor-segundaria);
-    }
 }
 
+.containerConteudo h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: .5rem 0 5rem;
+    color: var(--cor-segundaria);
+}
 
 /* ----------- skills ----------- */
 
@@ -133,13 +129,13 @@ h2 {
 .skillsImg {
     width: 700px;
     margin: 0 auto;
+}
 
-    & img {
-        width: 160px;
-        height: 160px;
-        margin: 1rem 0 0 2.5rem;
-        cursor: pointer;
-    }
+.skillsImg img {
+    width: 160px;
+    height: 160px;
+    margin: 1rem 0 0 2.5rem;
+    cursor: pointer;
 }
 
 /* ----------------- sobre mim ------------------ */
@@ -153,23 +149,23 @@ h2 {
 
 .sobreMimContent {
     margin-left: 3rem;
+}
 
-    & h2 {
-        margin-left: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
+.sobreMimContent h2 {
+    margin-left: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 
-    & p {
-        margin-top: .5rem;
-        font-size: 1.3rem;
-        text-align: justify;
-    }
+.sobreMimContent p {
+    margin-top: .5rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
 
-    & a {
-        text-transform: uppercase;
-        text-decoration: none;
-    }
+.sobreMimContent a {
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .iconsProfile img {
@@ -191,23 +187,20 @@ h2 {
 
 #meusProjetos {
     box-shadow: 0 0 40px 10px #ffffff1d;
+}
 
-    & h2 {
-
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        padding: 70px 0;
-
-    }
+#meusProjetos h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 70px 0;
 }
 
 .containerProjetos {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 70px 0;
-    
-
 }
 
 .imgProjetos {
@@ -215,20 +208,16 @@ h2 {
     box-shadow: 0 0 15px #ffffff1d;
     border-radius: 40px;
 
-
-    & img {
-        width: 370px;
-        height: 470px;
-        transition: 2s;
-        cursor: pointer;
-        border-radius: 40px;
-        position: relative;
-
-    }
-
 }
 
-
+.imgProjetos img {
+    width: 300px;
+    height: 400px;
+    transition: 2s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+}
 
 .overlay {
     position: absolute;

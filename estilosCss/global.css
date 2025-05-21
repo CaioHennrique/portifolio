@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--cor-linksBackground);
+}
+
+p {
+    color: var(--cor-segundaria);
+}
+
+section,
+main {
+    margin-top: 15rem;
+}
+
+span {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--cor-primario);
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--cor-segundaria);
+}
