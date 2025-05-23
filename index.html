@@ -10,23 +10,25 @@
         rel="stylesheet">
 
     <!-- ESTILO CSS -->
-    <link rel="stylesheet" href="estilosCss/style.css">
     <link rel="stylesheet" href="estilosCss/global.css">
+    <link rel="stylesheet" href="estilosCss/style.css">
     <title>portifolio</title>
 </head>
 
 <body>
+    <div class="particulas"></div>
+
     <nav id="navbar">
         <div class="navbarInteracao">
             <ul>
                 <li><a href="#conteudoPrincipal">inicio</a></li>
-                <li><a href="#skills">skills</a></li>
                 <li><a href="#sobreMim">sobre</a></li>
+                <li><a href="#skills">skills</a></li>
                 <li><a href="#meusProjetos">projetos</a></li>
             </ul>
         </div>
         <div class="btnContainer">
-            <a class="btnContato" href="#">contato</a>
+            <a class="btnContato" href="#entreContato">contato</a>
         </div>
     </nav>
 
@@ -38,7 +40,7 @@
                 <h3>desenvolvedor front-end</h3>
 
                 <div class="btnContainer">
-                    <a class="btnContato" href="#">entre em contato</a>
+                    <a class="btnContato" href="#entreContato">entre em contato</a>
                 </div>
             </div>
             <div class="imgPrincipal">
@@ -49,7 +51,7 @@
         <!-- ----------- sobre mim ------------ -->
 
         <section id="sobreMim">
-            <div class="container">
+            <div class="containerSobreMim">
                 <div class="minhaImg">
                     <img src="assets/foto.png" alt="minha foto ">
                 </div>
@@ -67,9 +69,10 @@
 
                     </p>
                     <div class="iconsProfile">
-                        <a href=""><img src="assets/icons8-linkedin-50.png" alt="linkedin link"></a>
+                        <a href=""><img src="assets/icons8-linkedin-50.png" target="_blank" alt="linkedin link"></a>
                         <a href="https://github.com/CaioHennrique" target="_blank"><img
-                                src="assets/icons8-github-logo-60.png" alt="linkedin link"></a>
+                                src="assets/icons8-github-logo-60.png" alt="github link"></a>
+                        <a href="#"><img src="assets/curriculo.png" alt="curriculo"></a>
                     </div>
                 </div>
             </div>
@@ -95,6 +98,7 @@
 
         <section id="meusProjetos">
             <h2>meus <span>projetos</span></h2>
+
             <div class="containerProjetos">
                 <div class="imgProjetos">
                     <img src="assets/em breve.png" alt="em breve">
@@ -114,19 +118,33 @@
                         <p>projeto 3</p>
                     </div>
                 </div>
+            </div>
+
+        </section>
+
+        <!-- ------------ entre em contato ------------- -->
+
+        <section id="entreContato">
+            <h2>entre <span>contato</span></h2>
+            <div class="containerform">
+                <form class="contato">
+                    <input type="text" name="nome" id="nome" placeholder="nome">
+                    <textarea name="mensagem" id="mensagem" rows="7" placeholder="digite sua mensagem"></textarea>
+                </form>
+                <button class="btnContato">entre contato</button>
 
             </div>
 
         </section>
 
+        <footer>
 
-
-
-
-
-
-
-
+            <div class="iconsProfile">
+                <a href=""><img src="assets/icons8-linkedin-50.png" target="_blank" alt="linkedin link"></a>
+                <a href="https://github.com/CaioHennrique" target="_blank"><img src="assets/icons8-github-logo-60.png"
+                        alt="github link"></a>
+                <a href="#"><img src="assets/curriculo.png" alt="curriculo"></a>
+            </div>
     </main>
 
 </body>

@@ -4,9 +4,15 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 15rem;
+}
 
 body {
-    background-color: var(--cor-linksBackground);
+    background-color: #0a0f1c;
 }
 
 p {
@@ -14,7 +20,7 @@ p {
 }
 
 section,
-main {
+main, footer{
     margin-top: 15rem;
 }
 
