@@ -16,19 +16,22 @@
 </head>
 
 <body>
-    <div class="particulas"></div>
+    <!-- <div class="particulas"></div> -->
 
     <nav id="navbar">
+        <div class="iconBurguer">
+            <img src="assets/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="menu burguer">
+        </div>
         <div class="navbarInteracao">
             <ul>
-                <li><a href="#conteudoPrincipal">inicio</a></li>
+                <li><a href="#conteudoPrincipal">home</a></li>
                 <li><a href="#sobreMim">sobre</a></li>
                 <li><a href="#skills">skills</a></li>
                 <li><a href="#meusProjetos">projetos</a></li>
             </ul>
         </div>
         <div class="btnContainer">
-            <a class="btnContato" href="#entreContato">contato</a>
+            <a class="btnContato" id="btnDisable" href="#entreContato">contato</a>
         </div>
     </nav>
 
@@ -73,7 +76,8 @@
                                 src="assets/icons8-linkedin-50.png" alt="linkedin link Caio Henrique"></a>
                         <a href="https://github.com/CaioHennrique" target="_blank"><img
                                 src="assets/icons8-github-logo-60.png" alt="github link Caio Henrique"></a>
-                        <a href="assets/curriculo_caio_henrique_barbosa_santos.pdf"  download="Curriculo_CaioHenrique.pdf"><img src="assets/curriculo.png"
+                        <a href="assets/curriculo_caio_henrique_barbosa_santos.pdf"
+                            download="Curriculo_CaioHenrique.pdf"><img src="assets/curriculo.png"
                                 alt="curriculo Caio Henrique"></a>
                     </div>
                 </div>
@@ -133,7 +137,7 @@
                     <input type="text" name="nome" id="nome" placeholder="nome">
                     <textarea name="mensagem" id="mensagem" rows="7" placeholder="digite sua mensagem"></textarea>
                 </form>
-                <button class="btnContato">entre contato</button>
+                <button class="btnContato" id="btnAcao">entre contato</button>
 
             </div>
 
@@ -141,15 +145,18 @@
 
         <footer>
 
-             <div class="iconsProfile">
-                        <a href="https://www.linkedin.com/in/caio-henrique-a2a5b1262/" target="_blank"><img
-                                src="assets/icons8-linkedin-50.png" alt="linkedin link Caio Henrique"></a>
-                        <a href="https://github.com/CaioHennrique" target="_blank"><img
-                                src="assets/icons8-github-logo-60.png" alt="github link Caio Henrique"></a>
-                        <a href="assets/curriculo_caio_henrique_barbosa_santos.pdf"  download="Curriculo_CaioHenrique.pdf"><img src="assets/curriculo.png"
-                                alt="curriculo Caio Henrique"></a>
-                    </div>
+            <div class="iconsProfile">
+                <a href="https://www.linkedin.com/in/caio-henrique-a2a5b1262/" target="_blank"><img
+                        src="assets/icons8-linkedin-50.png" alt="linkedin link Caio Henrique"></a>
+                <a href="https://github.com/CaioHennrique" target="_blank"><img src="assets/icons8-github-logo-60.png"
+                        alt="github link Caio Henrique"></a>
+                <a href="assets/curriculo_caio_henrique_barbosa_santos.pdf" download="Curriculo_CaioHenrique.pdf"><img
+                        src="assets/curriculo.png" alt="curriculo Caio Henrique"></a>
+            </div>
     </main>
+
+    <script src="js/main.js">
+    </script>
 
 </body>
 
