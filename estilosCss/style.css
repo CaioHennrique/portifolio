@@ -135,6 +135,8 @@
 }
 
 .imgPrincipal img {
+    width: 90%;
+    filter:drop-shadow(0 0 20px #402470);
     animation: movimentoImg 3.4s infinite alternate linear;
 }
 
@@ -185,7 +187,9 @@
     box-shadow: 0 0 10px var(--cor-sombra);
     transform: scale(1.1);
 }
-
+.minhaImg img {
+    border-radius: 30px;
+}
 /* ----------- skills ----------- */
 
 #skills h2 {
@@ -328,7 +332,7 @@ footer {
 
     @keyframes movimentoImg {
     0% {
-        transform: translate(5px, 10px);
+        transform: translate(15px, 30px);
     }
 }
 
@@ -336,6 +340,15 @@ footer {
 
     main {
         margin-top: 0;
+    }
+
+    .imgPrincipal img {
+        width: 100%;
+        height: auto;
+    }
+
+    .desabilitar {
+        display: none;
     }
 
     #navbar {
@@ -456,7 +469,7 @@ footer {
     }
 
     #meusProjetos {
-        min-width: 100%;
+        box-shadow: none;
     }
 
     .containerProjetos {
@@ -500,7 +513,7 @@ footer {
     }
 
     footer {
-        min-width: 100%;
+        width: 110% !important ;
     }
 }
 
@@ -510,6 +523,11 @@ footer {
     main {
         margin-top: 0;
     }
+
+     .desabilitar {
+        display: none;
+    }
+
 
     #navbar {
         justify-content: start;
@@ -613,6 +631,11 @@ footer {
 }
 
 @media screen and (min-width: 770px) and (max-width: 1024px) {
+
+     .desabilitar {
+        display: none;
+    }
+
 
 
     .btnContato {
