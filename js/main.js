@@ -8,7 +8,7 @@
 
     btn.addEventListener("click", () => {
         const numero = "5512988462376";
-        const texto = `Olá, meu nome é ${nome.value},  ${msg.value}`;
+        const texto = `Olá meu nome é ${nome.value},  ${msg.value}`;
         const url = `https://wa.me/${numero}?text=${encodeURIComponent(texto)}`;
 
         window.open(url, "_blank"); // Abre o WhatsApp em nova aba
