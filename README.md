@@ -49,9 +49,6 @@ Neste projeto, busquei aplicar boas práticas e conceitos importantes:
 <table>
   <tr>
     <td>
-      <img src="" width="100px" />
-    </td>
-    <td>
       Feito por <a href="https://github.com/CaioHennrique" target="_blank">Caio Henrique</a>.
     </td>
   </tr>
